@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lista de Jogos PSN DELUXE</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f192f;
+    color: #eee;
+    margin: 0;
+    padding: 0 20px;
+  }
+  header {
+    background: #003087;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1.2px;
+  }
+  .notice {
+    background: linear-gradient(90deg, #003087cc, #00aaffcc);
+    margin: 15px auto;
+    max-width: 600px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.1em;
+  }
+  .notice svg {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+  }
+  .game-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto 40px auto;
+  }
+  .game-item {
+    background: #142850;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 0 8px #0077ff88;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  .game-item:hover {
+    transform: scale(1.05);
+  }
+  .game-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    box-shadow: 0 4px 8px #0008 inset;
+  }
+  .game-item p {
+    margin: 0;
+    font-weight: 600;
+    color: #aad4ff;
+  }
+</style>
+</head>
+<body>
+
+<header>Lista de Jogos PSN DELUXE</header>
+
+<div class="notice" role="alert" aria-live="polite">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm.75 15h-1.5v-6h1.5v6zm0-8h-1.5V7h1.5v2z"/></svg>
+  Jogos atualizados mensalmente, com novos jogos chegando.
+</div>
+
+<div class="game-list">
+  <div class="game-item">
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/0e/A_Hat_in_Time_cover_art.jpg" alt="A Hat in Time" />
+    <p>A Hat in Time</p>
+  </div>
+  <div class="game-item">
+    <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/Battlefield_5_cover_art.jpg" alt="Battlefield 5" />
+    <p>Battlefield 5</p>
+  </div>
+  <div class="game-item">
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Battlefield_2042_cover_art.jpg" alt="Battlefield 2042" />
+    <p>Battlefield 2042</p>
+  </div>
+  <div class="game-item">
+    <img src="https://upload.wikimedia.org/wikipedia/en/1/17/Assassins_Creed_Valhalla
